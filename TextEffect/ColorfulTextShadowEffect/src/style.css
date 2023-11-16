@@ -25,11 +25,11 @@ body {
 @keyframes ani {
   to {
     color: #0f0;
+    /* text-shadow 很大的时候会和 filter 冲突 */
     text-shadow: 
     0 0 15px #000, 
     0 0 16px #0f0, 
     0 0 40px #0f0, 
-    0 0 160vh #0f0,
     0 20px 0 rgb(255 12 170 / 17%), 
     0 -20px 0 rgb(145 246 255 / 19%);
     filter: hue-rotate(360deg);
