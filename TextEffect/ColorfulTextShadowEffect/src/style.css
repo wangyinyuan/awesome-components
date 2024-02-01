@@ -25,7 +25,7 @@ body {
 @keyframes ani {
   to {
     color: #0f0;
-    /* text-shadow 很大的时候会和 filter 冲突 */
+    /* filter 渲染大面积图像会有性能问题，所以要控制 text-shadow 的大小 */
     text-shadow: 
     0 0 15px #000, 
     0 0 16px #0f0, 
